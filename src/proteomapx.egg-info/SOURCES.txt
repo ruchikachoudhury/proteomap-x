@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/proteomapx/__init__.py
+src/proteomapx/cli.py
+src/proteomapx/models.py
+src/proteomapx/variant_parser.py
+src/proteomapx.egg-info/PKG-INFO
+src/proteomapx.egg-info/SOURCES.txt
+src/proteomapx.egg-info/dependency_links.txt
+src/proteomapx.egg-info/top_level.txt
+tests/test_variant_parser.py
