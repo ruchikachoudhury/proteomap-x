@@ -40,3 +40,4 @@ def parse_mutation_file(filepath: Path):
             parsed_records.append(mutation_record) #converted csv file into a list of Mutationrecord objects, which can be used for further analysis or processing.
 
     return parsed_records
+
