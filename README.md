@@ -1,4 +1,5 @@
-Proteomap-x is a Python-based pipeline designed to connect disease-associated protein mutations with their respective structural and dynamic consequences.
+ProteoMap-X is a Python-based structural bioinformatics pipeline for processing protein-level disease-associated mutations. The project currently focuses on validating and normalizing protein HGVS variants and preparing structured mutation data for downstream structural analysis.
+ 
  Rather than only asking, "What disease is associated with this mutation?", we instead ask "How might one or more of these disease-associated muattions alter the physical structure and subsequently the protein dynamics and also could these changes have any implications for known therapeutic interactions?"
 The project takes protein-level variants from a patient or sample and progressively maps them from mutation notation -> protein residue -> 3D structure -> structural relationships -> protein dynamics -> disease/clinical information. 
 _Drug-discovery extension_
