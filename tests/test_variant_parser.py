@@ -6,9 +6,12 @@ from proteomapx.variant_parser import parse_mutation_file
 
 def test_parse_mutation_file():
     # take the csv to test the function
-    filepath = Path(
-        "C:\\Users\\thisi\\Bioinformatics\\Projects\\proteomap-x\\data\\examples\\braf_multivariant.csv"
-    )
+    filepath = (
+            Path(__file__).resolve().parents[1]
+            / "data"
+            / "examples"
+            / "braf_multivariant.csv"
+        )
     # file path is stored in filepath
     mutation_records = parse_mutation_file(filepath)
     # parse the mutation file and store the result in mutation_records
@@ -61,4 +64,4 @@ def test_multiple_mutations_same_gene():#tests for multiple mutations recorded o
 
     assert len(braf_records) == 2
     assert braf_records[0].sample_id == braf_records[1].sample_id
-    assert braf_records[0].gene == braf_records[1].gene 
+    assert braf_records[0].gene == braf_records[1].gene
